@@ -1,4 +1,4 @@
-class solution {
+class sol {
     public int[] plusOne(int[] digits) {
         for(int i=digits.length-1;i>=0;i--)
         {
@@ -12,5 +12,6 @@ class solution {
         int[] r=new int[digits.length+1];
         r[0]=1;
     return r;
+    
     }
 }
